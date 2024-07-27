@@ -413,25 +413,25 @@ data-bs-target="#live-customizer" role="button" aria-controls="live-customizer">
 
 <script src="{{url('backend/assets/js/core/libs.min.js')}}"></script>
 <script src="{{url('backend/assets/vendor/sheperd/dist/js/sheperd.min.js')}}"></script>
-<script src="{{url('backend/assets/js/plugins/tour.js" defe')}}"></script>
+<script src="{{url('backend/assets/js/plugins/tour.js')}}" defer></script>
 <script src="{{url('backend/assets/vendor/flatpickr/dist/flatpickr.min.js')}}"></script>
-<script src="{{url('backend/assets/js/plugins/flatpickr.js" defe')}}"></script>
-<script src="{{url('backend/assets/js/plugins/select2.js" defe')}}"></script>
+<script src="{{url('backend/assets/js/plugins/flatpickr.js')}}" defer></script>
+<script src="{{url('backend/assets/js/plugins/select2.js')}}" defer></script>
 <script src="{{url('backend/assets/js/plugins/slider-tabs.js')}}"></script>
 <script src="{{url('backend/assets/vendor/swiperSlider/swiper-bundle.min.js')}}"></script>
-<script src="{{url('backend/assets/js/plugins/swiper-slider.js" defe')}}"></script>
+<script src="{{url('backend/assets/js/plugins/swiper-slider.js')}}" defer></script>
 <script src="{{url('backend/assets/vendor/lodash/lodash.min.js')}}"></script>
 <script src="{{url('backend/assets/js/iqonic-script/utility.min.js')}}"></script>
 <script src="{{url('backend/assets/js/iqonic-script/setting.min.js')}}"></script>
 <script src="{{url('backend/assets/js/setting-init.js')}}"></script>
 <script src="{{url('backend/assets/js/core/external.min.js')}}"></script>
-<script src="{{url('backend/assets/js/charts/widgetchartsf700.js?v=1.0.1" defe')}}"></script>
-<script src="{{url('backend/assets/js/charts/dashboardf700.js?v=1.0.1" defe')}}"></script>
-<script src="{{url('backend/assets/js/streamitf700.js?v=1.0.1" defe')}}"></script>
-<script src="{{url('backend/assets/js/sidebarf700.js?v=1.0.1" defe')}}"></script>
-<script src="{{url('backend/assets/js/chart-customf700.js?v=1.0.1" defe')}}"></script>
-<script src="{{url('backend/assets/js/plugins/select2f700.js?v=1.0.1" defe')}}"></script>
-<script src="{{url('backend/assets/js/plugins/flatpickrf700.js?v=1.0.1" defe')}}"></script>
+<script src="{{url('backend/assets/js/charts/widgetchartsf700.js?v=1.0.1')}}" defer></script>
+<script src="{{url('backend/assets/js/charts/dashboardf700.js?v=1.0.1')}}" defer></script>
+<script src="{{url('backend/assets/js/streamitf700.js?v=1.0.1')}}" defer></script>
+<script src="{{url('backend/assets/js/sidebarf700.js?v=1.0.1')}}" defer></script>
+<script src="{{url('backend/assets/js/chart-customf700.js?v=1.0.1')}}" defer></script>
+<script src="{{url('backend/assets/js/plugins/select2f700.js?v=1.0.1')}}" defer></script>
+<script src="{{url('backend/assets/js/plugins/flatpickrf700.js?v=1.0.1')}}" defer></script>
 
 </body>
 

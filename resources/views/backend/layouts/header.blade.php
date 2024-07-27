@@ -15,6 +15,8 @@
         content="premium, admin, dashboard, template, bootstrap 5, clean ui, streamit, admin dashboard,responsive dashboard, optimized dashboard,">
     <meta name="author" content="Iqonic Design">
     <meta name="DC.title" content="Streamit Responsive Bootstrap 5 Admin Dashboard Template">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
 
 
     <link rel="shortcut icon" href="https://templates.iqonic.design/streamit/html/assets/images/favicon.ico">
@@ -35,6 +37,8 @@
     <link rel="stylesheet" href="{{url('backend/assets/css/rtl.minf700.css?v=1.0.1')}}"/>
     <link rel="stylesheet" href="{{url('backend/assets/vendor/swiperSlider/swiper-bundle.min.css')}}"/>
     <link rel="stylesheet" href="{{url('backend/assets/vendor/select2/dist/css/select2.min.css')}}"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300&amp;display=swap" rel="stylesheet">
@@ -49,10 +53,10 @@
             <a href="index-2.html" class="navbar-brand">
 
                 <!--Logo start-->
-                       <img class="logo-normal" src="../assets/images/logo.png" alt="#">
-                       <img class="logo-normal logo-white" src="../assets/images/logo-white.png" alt="#">
-                       <img class="logo-full"  src="../assets/images/logo-full.png" alt="#">
-                       <img class="logo-full logo-full-white"  src="../assets/images/logo-full-white.png" alt="#">
+                       <img class="logo-normal" src="{{url('backend/assets/images/logo.png')}}" alt="#">
+                       <img class="logo-normal logo-white" src="{{url('backend/assets/images/logo-white.png')}}" alt="#">
+                       <img class="logo-full"  src="{{url('backend/assets/images/logo-full.png')}}" alt="#">
+                       <img class="logo-full logo-full-white"  src="{{url('backend/assets/images/logo-full-white.png')}}" alt="#">
                 <!--logo End-->        </a>
             <div class="sidebar-toggle" data-toggle="sidebar" data-active="true">
                 <i class="chevron-right">
@@ -195,10 +199,10 @@
                   <a href="index-2.html" class="navbar-brand">
 
                      <!--Logo start-->
-                            <img class="logo-normal" src="../assets/images/logo.png" alt="#">
-                            <img class="logo-normal logo-white" src="../assets/images/logo-white.png" alt="#">
-                            <img class="logo-full"  src="../assets/images/logo-full.png" alt="#">
-                            <img class="logo-full logo-full-white"  src="../assets/images/logo-full-white.png" alt="#">
+                            <img class="logo-normal" src="{{url('backend/assets/images/logo.png')}}" alt="#">
+                            <img class="logo-normal logo-white" src="{{url('backend/assets/images/logo-white.png')}}" alt="#">
+                            <img class="logo-full"  src="{{url('backend/assets/images/logo-full.png')}}" alt="#">
+                            <img class="logo-full logo-full-white"  src="{{url('backend/assets/images/logo-full-white.png')}}" alt="#">
                      <!--logo End-->      </a>
                   <div class="sidebar-toggle" data-toggle="sidebar" data-active="true">
                      <i class="icon d-flex">
@@ -288,7 +292,7 @@
                                  <div class="p-0 card-body all-notification">
                                     <div class="d-flex align-items-center border-bottom search-hover py-2 px-3">
                                        <div class="flex-shrink-0">
-                                          <img src="../assets/images/avatars/01.png"
+                                          <img src="{{url('backend/assets/images/avatars/01.png')}}"
                                              class="align-self-center img-fluid avatar-50 rounded-pill" alt="#">
                                        </div>
                                        <div class="d-flex flex-column ms-3 w-100">
@@ -298,7 +302,7 @@
                                     </div>
                                     <div class="d-flex align-items-center border-bottom search-hover py-2 px-3">
                                        <div class="flex-shrink-0">
-                                          <img src="../assets/images/avatars/02.png"
+                                          <img src="{{url('backend/assets/images/avatars/02.png')}}"
                                              class="align-self-center img-fluid avatar-50 rounded-pill" alt="#">
                                        </div>
                                        <div class="d-flex flex-column ms-3 w-100">
@@ -308,7 +312,7 @@
                                     </div>
                                     <div class="d-flex align-items-center search-hover py-2 px-3 border-bottom">
                                        <div class="flex-shrink-0">
-                                          <img src="../assets/images/avatars/03.png"
+                                          <img src="{{url('backend/assets/images/avatars/03.png')}}"
                                              class="align-self-center img-fluid avatar-50 rounded-pill" alt="#">
                                        </div>
                                        <div class="d-flex flex-column ms-3 w-100">
@@ -318,7 +322,7 @@
                                     </div>
                                     <div class="d-flex align-items-center border-bottom search-hover py-2 px-3">
                                        <div class="flex-shrink-0">
-                                          <img src="../assets/images/avatars/04.png"
+                                          <img src="{{url('backend/assets/images/avatars/04.png')}}"
                                              class="align-self-center img-fluid avatar-50 rounded-pill" alt="#">
                                        </div>
                                        <div class="d-flex flex-column ms-3 w-100">
@@ -394,7 +398,7 @@
                                     <a href="#" class="iq-sub-card">
                                        <div class="d-flex align-items-center">
                                           <img class="p-1 avatar-40 rounded-pill bg-soft-primary"
-                                             src="../assets/images/shapes/01.png" alt="" loading="lazy">
+                                             src="{{url('backend/assets/images/shapes/01.png')}}" alt="" loading="lazy">
                                           <div class="ms-3 w-100">
                                              <h6 class="mb-0 ">Emma Watson Bni</h6>
                                              <div class="d-flex justify-content-between align-items-center">
@@ -408,7 +412,7 @@
                                        <div class="d-flex align-items-center">
                                           <div>
                                              <img class="p-1 avatar-40 rounded-pill bg-soft-primary"
-                                                src="../assets/images/shapes/02.png" alt="" loading="lazy">
+                                                src="{{url('backend/assets/images/shapes/02.png')}}" alt="" loading="lazy">
                                           </div>
                                           <div class="ms-3 w-100">
                                              <h6 class="mb-0 ">New customer is join</h6>
@@ -422,7 +426,7 @@
                                     <a href="#" class="iq-sub-card">
                                        <div class="d-flex align-items-center">
                                           <img class="p-1 avatar-40 rounded-pill bg-soft-primary"
-                                             src="../assets/images/shapes/03.png" alt="" loading="lazy">
+                                             src="{{url('backend/assets/images/shapes/03.png')}}" alt="" loading="lazy">
                                           <div class="ms-3 w-100">
                                              <h6 class="mb-0 ">Two customer is left</h6>
                                              <div class="d-flex justify-content-between align-items-center">
@@ -435,7 +439,7 @@
                                     <a href="#" class="iq-sub-card">
                                        <div class="d-flex align-items-center">
                                           <img class="p-1 avatar-40 rounded-pill bg-soft-primary"
-                                             src="../assets/images/shapes/04.png" alt="" loading="lazy">
+                                             src="{{url('backend/assets/images/shapes/04.png')}}" alt="" loading="lazy">
                                           <div class="w-100 ms-3">
                                              <h6 class="mb-0 ">New Mail from Fenny</h6>
                                              <div class="d-flex justify-content-between align-items-center">
@@ -591,21 +595,21 @@
                         <li class="nav-item dropdown">
                            <a class="py-0 nav-link d-flex align-items-center ps-3" href="#" id="profile-setting" role="button"
                               data-bs-toggle="dropdown" aria-expanded="false">
-                              <img src="../assets/images/user/01.jpg" alt="User-Profile"
+                              <img src="{{url('backend/assets/images/sabeer.jpg')}}" alt="User-Profile"
                                  class="theme-color-default-img img-fluid avatar avatar-50 avatar-rounded" loading="lazy">
-                              <img src="../assets/images/user/01.jpg" alt="User-Profile"
+                              <img src="{{url('backend/assets/images/user/01.jpg')}}" alt="User-Profile"
                                  class="theme-color-purple-img img-fluid avatar avatar-50 avatar-rounded" loading="lazy">
-                              <img src="../assets/images/user/02.jpg" alt="User-Profile"
+                              <img src="{{url('backend/assets/images/user/02.jpg')}}" alt="User-Profile"
                                  class="theme-color-blue-img img-fluid avatar avatar-50 avatar-rounded" loading="lazy">
-                              <img src="../assets/images/user/03.jpg" alt="User-Profile"
+                              <img src="{{url('backend/assets/images/user/03.jpg')}}" alt="User-Profile"
                                  class="theme-color-green-img img-fluid avatar avatar-50 avatar-rounded" loading="lazy">
-                              <img src="../assets/images/user/04.jpg" alt="User-Profile"
+                              <img src="{{url('backend/assets/images/user/04.jpg')}}" alt="User-Profile"
                                  class="theme-color-yellow-img img-fluid avatar avatar-50 avatar-rounded" loading="lazy">
-                              <img src="../assets/images/user/05.jpg" alt="User-Profile"
+                              <img src="{{url('backend/assets/images/user/05.jpg')}}" alt="User-Profile"
                                  class="theme-color-pink-img img-fluid avatar avatar-50 avatar-rounded" loading="lazy">
                               <div class="caption ms-3 d-none d-md-block ">
-                                 <h6 class="mb-0 caption-title">Austin Robertson</h6>
-                                 <p class="mb-0 caption-sub-title">Marketing Administrator</p>
+                                 <h6 class="mb-0 caption-title">Syed Sabeer</h6>
+                                 <p class="mb-0 caption-sub-title">CEO</p>
                               </div>
                            </a>
                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profile-setting">

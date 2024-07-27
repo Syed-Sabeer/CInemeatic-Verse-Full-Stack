@@ -48,16 +48,16 @@
         transition: opacity 0.3s ease;
         font-size: 2em; /* Adjust the size as needed */
     }
-    
+
 
     .img-box:hover .icon-play {
         opacity: 1;
 
-    }    
+    }
     .img-box:hover .icon-post-type {
         opacity: 0;
 
-    }    
+    }
 
 .pro-section{
    margin-left: 45%;
@@ -109,17 +109,17 @@
     grid-column-gap: 3rem;
     align-items: center;
     }
-    
+
     .profile-image {
     grid-row: 1 / -1;
     }
-    
+
     .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
     grid-gap: 2rem;
     }
-    
+
     .profile-image,
     .profile-user-settings,
     .profile-stats,
@@ -129,8 +129,8 @@
     width: auto;
     margin: 0;
     }
-    
-    
+
+
     }
       @media screen and (max-width: 768px) {
     .profile-user-name{
@@ -162,8 +162,8 @@
     .profile-bio p,span{
       font-size: 1rem;
     }
-    
-    
+
+
       }
       @media screen and (max-width: 654px) {
     .profile-stats{
@@ -234,4 +234,25 @@
         }
         .profile-stats{
           margin-left: -2.5%;
+        }
+        .profile-box{
+            max-width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #0000;
+          }
+          .fa-circle-plus{
+            font-weight: bold;
+            font-size: 2rem;
+
+          }
+          .upload-input{
+            background-color: #3A3B3C;
+            border: none;
+            padding: 0.4rem;
+            border-radius: 10px;
+
+          }
+          .upload-input::placeholder{
+            color: #ACAFB4;
         }
